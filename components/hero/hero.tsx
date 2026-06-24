@@ -64,7 +64,7 @@ export default function Hero() {
               sm:text-[5rem]
               md:text-[12rem]
               lg:text-[12rem]
-              xl:text-[16rem]
+              xl:text-[14rem]
               font-black
               leading-none
               tracking-[-0.01em]
@@ -217,21 +217,21 @@ z-40
           >
             <div className="ml-0 md:ml-10 lg:ml-20">
               <p
-                className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-400"
+                className="text-lg sm:text-xl md:text-xl lg:text-2xl text-gray-400"
               >
                 Tech Educator /
                 <br />
                 Content Creator.
               </p>
 
-              <div className="h-12 md:h-42" />
+              <div className="h-12 md:h-30" />
 
               <h2
                 className="text-4xl
-sm:text-5xl
-md:text-6xl
-lg:text-7xl
-xl:text-8xl font-bold leading-none"
+sm:text-4xl
+md:text-5xl
+lg:text-5xl
+xl:text-7xl font-bold leading-none"
               >
                 Smriti
                 <br />
@@ -259,7 +259,7 @@ engineering, and long-term career growth.
                 className=" hidden md:block mt-6 text-lg
 sm:text-xl
 md:text-2xl
-lg:text-3xl text-gray-300"
+lg:text-2xl text-gray-300"
               >
                 SDE at Microsoft
               </p>
@@ -286,7 +286,7 @@ md:text-right
 
 lg:right-20 z-50"
           >
-            <div className="space-y-6 mt-44 right-14 ">
+            <div className="space-y-6 mt-30 right-14 ">
               <div>
                 <p className="text-lg md:text-2xl lg:text-3xl text-gray-400 ">
                   @smritidoneria
@@ -328,8 +328,8 @@ lg:right-20 z-50"
             <h3
               className="text-xl
 sm:text-2xl
-md:text-3xl
-lg:text-5xl leading-tight font-light"
+md:text-2xl
+lg:text-3xl leading-tight font-light"
             >
               Building Careers.
               <br />

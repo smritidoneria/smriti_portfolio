@@ -53,7 +53,7 @@ export default function Stats() {
     tracking-[0.5em]
     md:tracking-[0.8em]
     text-lg
-    md:text-2xl
+    md:text-xl
     mb-12
     md:mb-24
   "
@@ -88,7 +88,7 @@ export default function Stats() {
   className="
     text-5xl
     sm:text-6xl
-    md:text-8xl
+    md:text-7xl
     font-bold
     text-white
   "

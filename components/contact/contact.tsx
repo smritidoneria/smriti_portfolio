@@ -4,17 +4,17 @@ export default function Contact() {
     return (
       <section
   id="contact"
-  className="bg-white text-black py-16 md:py-40"
+  className="bg-white text-black py-16 md:py-20"
 >
 <div className="px-6 md:px-16">
   
           {/* Top */}
-          <div className="text-center mb-16 md:mb-32">
+          <div className="text-center mb-16 md:mb-22">
           <p className="tracking-[0.4em] md:tracking-[0.8em] text-gray-500 text-sm md:text-xl mb-4 md:mb-8">
               CONTACT
             </p>
   
-            <h2 className="text-4xl sm:text-5xl md:text-8xl font-black leading-[0.95]">
+            <h2 className="text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95]">
               Let us work
               <br />
               together.
@@ -25,7 +25,7 @@ export default function Contact() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-24">
   
             {/* Left */}
-            <div className="hidden md:block space-y-8 text-3xl text-gray-600">
+            <div className="hidden md:block space-y-8 text-2xl text-gray-600">
   
               <a
                 href="#"
@@ -60,7 +60,7 @@ export default function Contact() {
             {/* Center */}
             <div>
   
-            <h3 className="text-3xl md:text-6xl font-black mb-4 md:mb-6">
+            <h3 className="text-3xl md:text-4xl font-black mb-4 md:mb-6">
                 FOR BRANDS
               </h3>
   
@@ -72,7 +72,7 @@ export default function Contact() {
   
               <a
                 href="mailto:hello@smritidoneria.com"
-                className="text-lg md:text-3xl font-medium break-all hover:opacity-70 transition"
+                className="text-lg md:text-2xl font-medium break-all hover:opacity-70 transition"
               >
                 smritidoneria@gmail.com
               </a>
@@ -83,7 +83,7 @@ export default function Contact() {
                   INSTAGRAM
                 </p>
   
-                <p className="text-lg md:text-3xl font-medium">
+                <p className="text-lg md:text-2xl font-medium">
                   @smritidoneria
                   @smriti.codes
                 </p>
@@ -99,7 +99,7 @@ export default function Contact() {
                 LOCATION
               </p>
   
-              <p className="text-xl md:text-3xl leading-relaxed">
+              <p className="text-xl md:text-2xl leading-relaxed">
                 Agra,
                 <br />
                 India
@@ -113,11 +113,11 @@ export default function Contact() {
           <div
   className="
     mt-16
-    md:mt-32
+    md:mt-20
     border-t
     border-black/10
     pt-6
-    md:pt-12
+    md:pt-10
     flex
     flex-col
     md:flex-row

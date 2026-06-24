@@ -60,11 +60,11 @@ export default function About() {
     px-6
     md:px-20
     pb-10
-    md:pb-24
+    md:pb-12
   "
 >
         <div className="absolute top-10 left-6 md:top-20 md:left-20">
-        <p className="text-2xl md:text-6xl font-bold leading-none text-white">
+        <p className="text-2xl md:text-5xl font-bold leading-none text-white">
               About
               <br />
               Me.
@@ -76,7 +76,8 @@ export default function About() {
     bottom-[-2px]
     text-xl
     sm:text-4xl
-    md:text-8xl
+    md:text-6xl
+    md: bottom-[-4px]
     font-light
     leading-[0.95]
     text-white
@@ -90,13 +91,13 @@ export default function About() {
         </div>
       </section>
 
-      <section className="bg-black -mt-20  pb-10 py-20 md:py-32">
+      <section className="bg-black -mt-20  pb-10 py-20 md:py-22">
       <div className="w-full px-6 md:px-20">
       <p
   className="
     text-lg
     sm:text-xl
-    md:text-3xl
+    md:text-2xl
     
     text-white
     leading-[1.7]

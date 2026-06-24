@@ -21,7 +21,7 @@ export default function Brands() {
 <p
   className="
     text-sm
-    md:text-2xl
+    md:text-xl
     text-center
     text-gray-300
     tracking-[0.4em]
@@ -67,7 +67,7 @@ export default function Brands() {
                 height={3000}
                 className="
   h-16
-  md:h-40
+  md:h-24
   w-auto
   object-contain
 "

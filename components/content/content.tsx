@@ -52,10 +52,10 @@ export default function Content() {
         strategy="afterInteractive"
       />
 
-      <section id="content" className="bg-black py-16 md:py-40 overflow-hidden">
+      <section id="content" className="bg-black py-16 md:py-22 overflow-hidden">
         <div className="px-5 md:px-16">
           {/* Section Label */}
-          <p className="text-sm md:text-xl tracking-[0.4em] md:tracking-[0.8em] text-gray-200 mb-4 md:mb-6">
+          <p className="text-sm md:text-xl tracking-[0.4em] md:tracking-[0.8em] text-gray-200 mb-4 md:mb-10">
             CONTENT
           </p>
 
@@ -64,7 +64,7 @@ export default function Content() {
             className="
     text-4xl
     sm:text-5xl
-    md:text-8xl
+    md:text-6xl
     font-black
     text-white
     leading-[0.95]
@@ -81,7 +81,7 @@ export default function Content() {
     mt-5
     md:mt-8
     text-base
-    md:text-2xl
+    md:text-xl
     text-gray-400
     max-w-3xl
     text-justify
@@ -125,7 +125,7 @@ min-w-[300px]
     border-blue-500/10
     bg-[#050505]
     h-[540px]
-    md:h-auto
+    md:h-[540px]
     transition-all
     duration-700
     group-hover:border-blue-400/40

@@ -29,18 +29,18 @@ export default function Navbar() {
   left-0
   w-full
   z-50
-  py-4
+  py-3
   bg-black
 
 "
       >
         {/* Desktop */}
-        <div className="hidden md:flex w-full justify-end pr-20 gap-20">
+        <div className="hidden md:flex w-full justify-end pr-12 gap-12">
           {links.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="text-white/90 text-xl font-light hover:text-white transition"
+              className="text-white/90 text-l font-light hover:text-white transition"
             >
               {link.label}
             </a>

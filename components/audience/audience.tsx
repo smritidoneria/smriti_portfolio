@@ -6,15 +6,17 @@ export default function Audience() {
       handle: "@smritidoneria",
       description:
         "Jobs · Internships · Career Growth · AI · Tech",
-      followers: "115K+",
+      followers: "125K+",
       reach: "4M+",
+      videos: "120+",
     },
     {
       handle: "@smriti.codes",
       description:
         "AI · Coding · Developers · Tech Tools · DSA",
-      followers: "18K+",
+      followers: "25K+",
       reach: "1M+",
+      videos: "50+",
     },
   ];
 
@@ -43,7 +45,7 @@ export default function Audience() {
   return (
     <section
   id="audience"
-  className="relative bg-[#f5f5f5] py-16 md:py-40 overflow-hidden"
+  className="relative bg-[#f5f5f5] py-16 md:py-22 overflow-hidden"
 >
       {/* Glow */}
       <div
@@ -59,7 +61,7 @@ export default function Audience() {
           AUDIENCE
         </p>
 
-        <h2 className="text-4xl sm:text-5xl md:text-8xl font-black text-black mb-4 md:mb-6">
+        <h2 className="text-4xl sm:text-5xl md:text-7xl font-black text-black mb-4 md:mb-6">
         The Community.
         </h2>
 
@@ -67,10 +69,10 @@ export default function Audience() {
   className="
     text-base
     sm:text-lg
-    md:text-2xl
+    md:text-xl
     text-gray-600
     mb-12
-    md:mb-24
+    md:mb-12
     max-w-3xl
     leading-relaxed
     text-justify
@@ -90,7 +92,7 @@ export default function Audience() {
                 bg-white
                 rounded-3xl
                 p-6
-                md:p-10
+                md:p-6
                 border
                 border-black/5
                 shadow-[0_20px_60px_rgba(0,0,0,0.08)]
@@ -99,7 +101,7 @@ export default function Audience() {
                 duration-300
               "
             >
-              <h3 className="text-2xl md:text-4xl font-black text-black">
+              <h3 className="text-2xl md:text-3xl font-black text-black">
                 {account.handle}
               </h3>
 
@@ -107,9 +109,9 @@ export default function Audience() {
                 {account.description}
               </p>
 
-              <div className="flex justify-between mt-8 md:mt-12">
+              <div className="grid grid-cols-3 mt-8 md:mt-12 gap-6">
                 <div>
-                <h4 className="text-4xl md:text-6xl font-black text-black">
+                <h4 className="text-4xl md:text-5xl font-black text-black">
                     {account.followers}
                   </h4>
 
@@ -117,9 +119,18 @@ export default function Audience() {
                     Followers
                   </p>
                 </div>
+                <div>
+    <h4 className="text-4xl md:text-5xl font-black text-black">
+      {account.videos}
+    </h4>
+
+    <p className="text-sm md:text-base text-gray-500 mt-2">
+      Videos Published
+    </p>
+  </div>
 
                 <div>
-                <h4 className="text-4xl md:text-6xl font-black text-black">
+                <h4 className="text-4xl md:text-5xl font-black text-black">
                     {account.reach}
                   </h4>
 
@@ -133,7 +144,7 @@ export default function Audience() {
         </div>
 
         {/* Demographics */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mt-10 md:mt-20">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mt-10 md:mt-12">
           {demographics.map((item) => (
             <div
               key={item.title}

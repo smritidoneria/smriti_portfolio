@@ -46,11 +46,11 @@ export default function Story() {
     px-6
     md:px-20
     pb-10
-    md:pb-24
+    md:pb-16
   "
 >
         <div className="absolute top-10 left-6 md:top-20 md:left-20">
-        <p className="text-xl md:text-6xl font-bold leading-none text-white">
+        <p className="text-xl md:text-5xl font-bold leading-none text-white">
              Brand
               <br />
               Impact.
@@ -63,7 +63,7 @@ export default function Story() {
     top-10
     text-2xl
     sm:text-4xl
-    md:text-8xl
+    md:text-7xl
     font-light
     leading-[0.95]
     text-white
@@ -76,13 +76,13 @@ export default function Story() {
         </div>
       </section>
 
-      <section className="bg-black py-12 md:py-32">
+      <section className="bg-black py-12 md:py-12">
       <div className="w-full px-6 md:px-20">
       <p
   className="
     text-lg
     sm:text-xl
-    md:text-3xl
+    md:text-2xl
     text-white
     leading-[1.7]
     w-full
@@ -136,7 +136,7 @@ export default function Story() {
     md:mt-10
     text-lg
     sm:text-xl
-    md:text-3xl
+    md:text-2xl
     text-white
     leading-[1.7]
     text-justify
