@@ -7,7 +7,7 @@ export default function About() {
     <>
   <section
   id="about"
-  className="relative h-[26vh] md:h-[90vh] overflow-hidden"
+  className="relative h-[27.7vh] md:h-[90vh] overflow-hidden"
 >
         <video
           autoPlay
