@@ -7,7 +7,7 @@ export default function Story() {
     <>
       <section
   id="story"
-  className="relative h-[27.7vh] md:h-[90vh] overflow-hidden"
+  className="relative h-[27.6vh] md:h-[90vh] overflow-hidden"
 >
         <video
           autoPlay
