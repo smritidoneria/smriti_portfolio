@@ -111,7 +111,7 @@ export default function Audience() {
 
               <div className="grid grid-cols-3 mt-8 md:mt-12 gap-6">
                 <div>
-                <h4 className="text-4xl md:text-5xl font-black text-black">
+                <h4 className="text-3xl md:text-5xl font-black text-black">
                     {account.followers}
                   </h4>
 
@@ -120,7 +120,7 @@ export default function Audience() {
                   </p>
                 </div>
                 <div>
-    <h4 className="text-4xl md:text-5xl font-black text-black">
+    <h4 className="text-3xl md:text-5xl font-black text-black">
       {account.videos}
     </h4>
 
@@ -130,7 +130,7 @@ export default function Audience() {
   </div>
 
                 <div>
-                <h4 className="text-4xl md:text-5xl font-black text-black">
+                <h4 className="text-3xl md:text-5xl font-black text-black">
                     {account.reach}
                   </h4>
 
@@ -161,7 +161,7 @@ export default function Audience() {
                 {item.title}
               </p>
 
-              <h3 className="text-lg md:text-2xl font-black text-white leading-tight">
+              <h3 className="text-sm md:text-2xl font-black text-white leading-tight">
                 {item.value}
               </h3>
 

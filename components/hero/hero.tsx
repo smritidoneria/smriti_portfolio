@@ -130,7 +130,7 @@ export default function Hero() {
             className="
             block md:hidden
             absolute
-            bottom-[-20%]
+            bottom-[-25%]
             left-1/2
             -translate-x-1/2
             w-[80%]
@@ -310,7 +310,7 @@ lg:right-20 z-50"
             transition={{ delay: 3 }}
             className="absolute
             right-6
-bottom-25
+bottom-14
 text-right
 
 
