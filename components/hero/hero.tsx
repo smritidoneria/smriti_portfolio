@@ -61,7 +61,7 @@ export default function Hero() {
               -translate-x-1/2
               whitespace-nowrap
               text-[4rem]
-              sm:text-[5rem]
+              sm:text-[4rem]
               md:text-[12rem]
               lg:text-[12rem]
               xl:text-[14rem]
@@ -250,9 +250,7 @@ xl:text-7xl font-bold leading-none"
   md:hidden
   "
 >
-Helping students and developers
-navigate internships, placements, software
-engineering, and long-term career growth.
+Helping students and developers navigate internships, placements, software engineering, and career growth.
 </p>
 
               <p

@@ -19,7 +19,7 @@ export default function About() {
           inset-0
           w-full
           h-full
-          object-contain
+ 
           md:object-cover
           md:object-center
         "
